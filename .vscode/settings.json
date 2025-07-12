@@ -19,5 +19,8 @@
     "titleBar.inactiveBackground": "#8ade5b99",
     "titleBar.inactiveForeground": "#15202b99"
   },
-  "peacock.color": "#8ade5b"
+  "peacock.color": "#8ade5b",
+  "cSpell.words": [
+    "oklch"
+  ]
 }
