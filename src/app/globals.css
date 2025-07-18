@@ -62,7 +62,7 @@
 
   /* Utility */
   --border: var(--neutral-300, oklch(89.2% 0.023 257.7));
-  --muted: var(--neutral-200, oklch(93.7% 0.017 257.7));
+  --muted: var(--neutral-500, oklch(56.7% 0.045 257.7));
   --shadow: oklch(0% 0 0 / 0.1); /* black with opacity */
   --focus: var(--accent, oklch(78.6% 0.181 60.7));
 }
@@ -104,7 +104,7 @@
   --neutral-800: oklch(98.7% 0.009 257.7);
 
   --border: var(--neutral-300, oklch(56.7% 0.045 257.7));
-  --muted: var(--neutral-200, oklch(41.2% 0.037 257.7));
+  --muted: var(--neutral-500, oklch(56.7% 0.045 257.7));
   --shadow: oklch(0% 0 0 / 0.5);
   --focus: var(--accent, oklch(61.6% 0.17 22.6));
 }
@@ -153,7 +153,7 @@
 
   /* Utility */
   --border: var(--neutral-300, oklch(89.2% 0.023 257.7));
-  --muted: var(--neutral-200, oklch(93.7% 0.017 257.7));
+  --muted: var(--neutral-500, oklch(56.7% 0.045 257.7));
   --shadow: oklch(0% 0 0 / 0.1); /* black with opacity */
   --focus: var(--accent, oklch(78.6% 0.181 60.7));
 }
@@ -163,6 +163,39 @@
   --color-foreground: var(--foreground, #171717);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --color-primary: var(--primary, #14213d);
+  --color-primary-light: var(--primary-light, #40394a);
+  --color-primary-dark: var(--primary-dark, #0d131f);
+
+  --color-secondary: var(--secondary, #457b9d);
+  --color-secondary-light: var(--secondary-light, #6096b4);
+  --color-secondary-dark: var(--secondary-dark, #36698d);
+
+  --color-accent: var(--accent, #fca311);
+  --color-info: var(--info, #a8dadc);
+  --color-danger: var(--danger, #e63946);
+  --color-warning: var(--warning, #fca311);
+  --color-success: var(--success, #43c463);
+
+  --color-on-primary: var(--on-primary, #ffffff);
+  --color-on-secondary: var(--on-secondary, #ffffff);
+  --color-on-surface: var(--on-surface, #ffffff);
+
+  --color-neutral-50: var(--neutral-50, #f8f9fa);
+  --color-neutral-100: var(--neutral-100, #e9ecef);
+  --color-neutral-200: var(--neutral-200, #dee2e6);
+  --color-neutral-300: var(--neutral-300, #ced4da);
+  --color-neutral-400: var(--neutral-400, #adb5bd);
+  --color-neutral-500: var(--neutral-500, #6c757d);
+  --color-neutral-600: var(--neutral-600, #495057);
+  --color-neutral-700: var(--neutral-700, #343a40);
+  --color-neutral-800: var(--neutral-800, #212529);
+
+  --color-border: var(--border, #ced4da);
+  --color-muted: var(--muted, #dee2e6);
+  --color-shadow: var(--shadow, #000000);
+  --color-focus: var(--focus, #fca311);
 }
 
 body {
