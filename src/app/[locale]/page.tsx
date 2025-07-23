@@ -1,7 +1,8 @@
 import { useTranslations } from 'next-intl';
 
-import { ThemeToggle } from '@/components/theme-toggle';
 import { Link } from '@/i18n/navigation';
+import { ThemeToggle } from '@/components/theme-toggle';
+import LanguageSelector from '@/components/language-selector';
 
 export default function HomePage() {
   const t = useTranslations('HomePage');
@@ -13,6 +14,7 @@ export default function HomePage() {
           <h1 className='text-2xl font-bold text-primary'>{t('title')}</h1>
           <Link href='/theme'>Theme</Link>
           <ThemeToggle />
+          <LanguageSelector />
         </div>
       </header>
 
